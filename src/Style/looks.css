@@ -1,0 +1,147 @@
+button {
+  background-color: #a9a9a9;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  justify-content: center;
+  width: 20%;
+  height: 50px;
+  outline: none;
+  margin-left: 40px;
+}
+button:hover {
+  background-color: #808080;
+}
+button:active {
+  border: none;
+  outline: none;
+}
+
+.show td:nth-child(1),
+.show td:nth-child(2),
+.show td:nth-child(3),
+.show td:nth-child(7),
+.show td:nth-child(8),
+.show td:nth-child(9) {
+  background-color: #303030;
+  padding-left: 8px;
+}
+
+.show td:nth-child(4) {
+  padding-left: 8px;
+}
+
+form {
+  padding-top: 5px;
+  margin-left: 15%;
+  margin-right: 16%;
+  outline: none;
+  display: flex;
+}
+form:active {
+  border: none;
+}
+#URL {
+  width: 100%;
+  background-color: #808080;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  height: 50px;
+  font-size: 24px;
+}
+
+#submit {
+  border: none;
+  background-color: #808080;
+  outline: none;
+}
+#submit:active {
+  background-color: #2f4f4f;
+  outline: none;
+}
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  width: 70%;
+  font-size: 24px;
+  margin-left: 15%;
+}
+#dark-col {
+  background-color: #303030;
+  padding-left: 8px;
+}
+#light-col {
+  padding-left: 8px;
+}
+.headers {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: lightgray;
+  text-decoration: underline;
+  text-decoration-color: #cd5c5c;
+  vertical-align: bottom;
+}
+
+.info td {
+  vertical-align: top;
+  height: 70px;
+}
+
+th {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+.games {
+  text-align: right;
+  padding-right: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.headers td:nth-child(4),
+.headers td:nth-child(5),
+.headers td:nth-child(6) {
+  text-decoration: underline;
+  text-decoration-color: #6495ed;
+}
+
+#toggler {
+  margin-left: 37%;
+}
+
+#question {
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  font-size: 24px;
+  padding-top: 3px;
+}
+
+progress {
+  width: 70%;
+  margin-left: 15%;
+  height: 30px;
+  padding-top: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #cd5c5c;
+}
+progress::-moz-progress-bar {
+  background-color: #cd5c5c;
+}
+
+#send {
+  color: white;
+  height: 50px;
+  width: 150px;
+  background-color: dimgray;
+}
